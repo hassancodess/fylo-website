@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ficon:hover {
+  @apply bg-accentCyan duration-300;
+}

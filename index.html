@@ -28,7 +28,7 @@
     <script src="script.js" defer></script>
     <title>Fylo</title>
   </head>
-  <body class="antialiased font-opensans dark:bg-darkBlue dark:text-white">
+  <body class="text-black font-opensans dark:bg-darkBlue dark:text-white">
     <!-- Header -->
     <header class="container h-40 px-6 mx-auto mt-10 text-center md:h-20">
       <!-- Dynamic Logo -->
@@ -295,7 +295,7 @@
     <!-- Early Access Section  -->
     <section id="early-access" class="relative px-6 dark:bg-darkBlue2 md:px-0">
       <div
-        class="relative max-w-4xl p-10 px-6 mx-auto space-y-6 text-center bg-gray-200 rounded-lg -top-40 dark:bg-darkBlue1 md:px-16"
+        class="relative max-w-4xl p-10 px-6 mx-auto space-y-6 text-center bg-gray-200 rounded-lg -top-20 dark:bg-darkBlue1 md:px-16"
       >
         <h5 class="text-2xl font-bold">Get early access today</h5>
         <p>
@@ -322,5 +322,76 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer class="text-white bg-darkBlue2">
+      <div class="container px-5 pt-20 pb-10 mx-auto">
+        <!-- Flex container for all items -->
+        <div
+          class="flex flex-col justify-between space-y-24 md:flex-row md:space-y-0"
+        >
+          <!-- Email & Phone -->
+          <div class="mt-10 space-y-6">
+            <div class="flex items-center space-x-3 md:-mt-10">
+              <div class="w-6">
+                <img src="images/icon-phone.svg" alt="" class="scale-10" />
+              </div>
+              <div>+92-543-123-123</div>
+            </div>
+            <div class="flex items-center space-x-3 md:-mt-10">
+              <div class="w-6">
+                <img src="images/icon-email.svg" alt="" class="scale-10" />
+              </div>
+              <div>example@gmail.com</div>
+            </div>
+          </div>
+          <!-- Menus -->
+          <div
+            class="flex flex-col space-y-10 text-xl md:text-base md:space-x-20 md:space-y-0 md:flex-row"
+          >
+            <div class="flex flex-col space-y-3">
+              <a href="#">About</a>
+              <a href="#">Jobs</a>
+              <a href="#">Press</a>
+              <a href="#">Blog</a>
+            </div>
+            <div class="flex flex-col space-y-3">
+              <a href="#">Contact Us</a>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+            </div>
+          </div>
+          <!-- Socials -->
+          <div class="flex justify-center pb-10 space-x-3">
+            <div>
+              <a href="#">
+                <img
+                  src="/images/facebook.svg"
+                  alt=""
+                  class="p-2 rounded-full bg-darkBlue ficon"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="/images/twitter.svg"
+                  alt=""
+                  class="p-2 rounded-full bg-darkBlue ficon"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="/images/instagram.svg"
+                  alt=""
+                  class="p-2 rounded-full bg-darkBlue ficon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
